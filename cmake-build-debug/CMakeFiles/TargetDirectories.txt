@@ -1,0 +1,3 @@
+C:/Users/agavi/CLionProjects/rubixcubeproject/cmake-build-debug/CMakeFiles/rubixcubeproject.dir
+C:/Users/agavi/CLionProjects/rubixcubeproject/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/agavi/CLionProjects/rubixcubeproject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
