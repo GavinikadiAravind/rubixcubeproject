@@ -1,0 +1,7 @@
+# ninja log v6
+8	426	7408437752035417	CMakeFiles/rubixcubeproject.dir/main.cpp.obj	7c1d4336a43553db
+427	549	7408437756224487	rubixcubeproject.exe	c57d2799306bff2f
+6	1500	7408447377294065	CMakeFiles/rubixcubeproject.dir/Generalrubikscube.cpp.obj	b5758d5e70f7e36b
+1503	1636	7408447392248644	rubixcubeproject.exe	cb972350795a52fe
+8	1502	7408497795393582	CMakeFiles/rubixcubeproject.dir/Generalrubikscube.cpp.obj	b5758d5e70f7e36b
+1503	1647	7408497810335461	rubixcubeproject.exe	cb972350795a52fe
