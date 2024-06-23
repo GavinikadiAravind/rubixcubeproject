@@ -3,4 +3,6 @@ project(rubixcubeproject)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(rubixcubeproject main.cpp)
+add_executable(rubixcubeproject main.cpp
+        Generalrubikscube.cpp
+        Generalrubikscube.h)
