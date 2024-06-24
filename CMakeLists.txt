@@ -5,4 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(rubixcubeproject main.cpp
         Generalrubikscube.cpp
-        Generalrubikscube.h)
+        Generalrubikscube.h
+        Rubikscube3d.cpp
+        Rubikscube1d.cpp
+)

@@ -61,6 +61,18 @@ build CMakeFiles/rubixcubeproject.dir/Generalrubikscube.cpp.obj: CXX_COMPILER__r
   OBJECT_DIR = CMakeFiles\rubixcubeproject.dir
   OBJECT_FILE_DIR = CMakeFiles\rubixcubeproject.dir
 
+build CMakeFiles/rubixcubeproject.dir/Rubikscube3d.cpp.obj: CXX_COMPILER__rubixcubeproject_unscanned_Debug C$:/Users/agavi/CLionProjects/rubixcubeproject/Rubikscube3d.cpp || cmake_object_order_depends_target_rubixcubeproject
+  DEP_FILE = CMakeFiles\rubixcubeproject.dir\Rubikscube3d.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubixcubeproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubixcubeproject.dir
+
+build CMakeFiles/rubixcubeproject.dir/Rubikscube1d.cpp.obj: CXX_COMPILER__rubixcubeproject_unscanned_Debug C$:/Users/agavi/CLionProjects/rubixcubeproject/Rubikscube1d.cpp || cmake_object_order_depends_target_rubixcubeproject
+  DEP_FILE = CMakeFiles\rubixcubeproject.dir\Rubikscube1d.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubixcubeproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubixcubeproject.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target rubixcubeproject
@@ -69,7 +81,7 @@ build CMakeFiles/rubixcubeproject.dir/Generalrubikscube.cpp.obj: CXX_COMPILER__r
 #############################################
 # Link the executable rubixcubeproject.exe
 
-build rubixcubeproject.exe: CXX_EXECUTABLE_LINKER__rubixcubeproject_Debug CMakeFiles/rubixcubeproject.dir/main.cpp.obj CMakeFiles/rubixcubeproject.dir/Generalrubikscube.cpp.obj
+build rubixcubeproject.exe: CXX_EXECUTABLE_LINKER__rubixcubeproject_Debug CMakeFiles/rubixcubeproject.dir/main.cpp.obj CMakeFiles/rubixcubeproject.dir/Generalrubikscube.cpp.obj CMakeFiles/rubixcubeproject.dir/Rubikscube3d.cpp.obj CMakeFiles/rubixcubeproject.dir/Rubikscube1d.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\rubixcubeproject.dir
