@@ -8,4 +8,6 @@ add_executable(rubixcubeproject main.cpp
         Generalrubikscube.h
         Rubikscube3d.cpp
         Rubikscube1d.cpp
+        DFSSOLVER.h
+        BFSSOLVER.h
 )
