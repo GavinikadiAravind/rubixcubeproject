@@ -73,6 +73,42 @@ build CMakeFiles/rubixcubeproject.dir/Rubikscube1d.cpp.obj: CXX_COMPILER__rubixc
   OBJECT_DIR = CMakeFiles\rubixcubeproject.dir
   OBJECT_FILE_DIR = CMakeFiles\rubixcubeproject.dir
 
+build CMakeFiles/rubixcubeproject.dir/NibbleArray.cpp.obj: CXX_COMPILER__rubixcubeproject_unscanned_Debug C$:/Users/agavi/CLionProjects/rubixcubeproject/NibbleArray.cpp || cmake_object_order_depends_target_rubixcubeproject
+  DEP_FILE = CMakeFiles\rubixcubeproject.dir\NibbleArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubixcubeproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubixcubeproject.dir
+
+build CMakeFiles/rubixcubeproject.dir/PatternDatabase.cpp.obj: CXX_COMPILER__rubixcubeproject_unscanned_Debug C$:/Users/agavi/CLionProjects/rubixcubeproject/PatternDatabase.cpp || cmake_object_order_depends_target_rubixcubeproject
+  DEP_FILE = CMakeFiles\rubixcubeproject.dir\PatternDatabase.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubixcubeproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubixcubeproject.dir
+
+build CMakeFiles/rubixcubeproject.dir/math.cpp.obj: CXX_COMPILER__rubixcubeproject_unscanned_Debug C$:/Users/agavi/CLionProjects/rubixcubeproject/math.cpp || cmake_object_order_depends_target_rubixcubeproject
+  DEP_FILE = CMakeFiles\rubixcubeproject.dir\math.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubixcubeproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubixcubeproject.dir
+
+build CMakeFiles/rubixcubeproject.dir/CornerDBMaker.cpp.obj: CXX_COMPILER__rubixcubeproject_unscanned_Debug C$:/Users/agavi/CLionProjects/rubixcubeproject/CornerDBMaker.cpp || cmake_object_order_depends_target_rubixcubeproject
+  DEP_FILE = CMakeFiles\rubixcubeproject.dir\CornerDBMaker.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubixcubeproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubixcubeproject.dir
+
+build CMakeFiles/rubixcubeproject.dir/CornerPatternDatabase.cpp.obj: CXX_COMPILER__rubixcubeproject_unscanned_Debug C$:/Users/agavi/CLionProjects/rubixcubeproject/CornerPatternDatabase.cpp || cmake_object_order_depends_target_rubixcubeproject
+  DEP_FILE = CMakeFiles\rubixcubeproject.dir\CornerPatternDatabase.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubixcubeproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubixcubeproject.dir
+
+build CMakeFiles/rubixcubeproject.dir/Rubikscubebitboard.cpp.obj: CXX_COMPILER__rubixcubeproject_unscanned_Debug C$:/Users/agavi/CLionProjects/rubixcubeproject/Rubikscubebitboard.cpp || cmake_object_order_depends_target_rubixcubeproject
+  DEP_FILE = CMakeFiles\rubixcubeproject.dir\Rubikscubebitboard.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubixcubeproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubixcubeproject.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target rubixcubeproject
@@ -81,7 +117,7 @@ build CMakeFiles/rubixcubeproject.dir/Rubikscube1d.cpp.obj: CXX_COMPILER__rubixc
 #############################################
 # Link the executable rubixcubeproject.exe
 
-build rubixcubeproject.exe: CXX_EXECUTABLE_LINKER__rubixcubeproject_Debug CMakeFiles/rubixcubeproject.dir/main.cpp.obj CMakeFiles/rubixcubeproject.dir/Generalrubikscube.cpp.obj CMakeFiles/rubixcubeproject.dir/Rubikscube3d.cpp.obj CMakeFiles/rubixcubeproject.dir/Rubikscube1d.cpp.obj
+build rubixcubeproject.exe: CXX_EXECUTABLE_LINKER__rubixcubeproject_Debug CMakeFiles/rubixcubeproject.dir/main.cpp.obj CMakeFiles/rubixcubeproject.dir/Generalrubikscube.cpp.obj CMakeFiles/rubixcubeproject.dir/Rubikscube3d.cpp.obj CMakeFiles/rubixcubeproject.dir/Rubikscube1d.cpp.obj CMakeFiles/rubixcubeproject.dir/NibbleArray.cpp.obj CMakeFiles/rubixcubeproject.dir/PatternDatabase.cpp.obj CMakeFiles/rubixcubeproject.dir/math.cpp.obj CMakeFiles/rubixcubeproject.dir/CornerDBMaker.cpp.obj CMakeFiles/rubixcubeproject.dir/CornerPatternDatabase.cpp.obj CMakeFiles/rubixcubeproject.dir/Rubikscubebitboard.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\rubixcubeproject.dir

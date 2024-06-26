@@ -3,11 +3,12 @@
 //
 #include<bits/stdc++.h>
 #include "Generalrubikscube.h"
+
 #ifndef BFSSOLVER_H
 #define BFSSOLVER_H
 
 template<class T,class H>
-class BFSSOLVER {
+class BFSSolver {
 
 private:
     vector<Generalrubikscube::MOVE> moves;
@@ -45,7 +46,6 @@ public:
         rubiksCube = _rubiksCube;
     }
 
-    //    Performs BFS and returns the vector of moves done to solve the cube
     vector<Generalrubikscube::MOVE> solve() {
         T solved_cube = bfs();
         assert(solved_cube.isSolved());

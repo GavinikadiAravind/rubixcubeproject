@@ -7,7 +7,7 @@
 #define DFSSOLVER_H
 
 template<typename T, typename H>
-class DFSSOlVER {
+class DFSSolver {
 private:
     vector<Generalrubikscube::MOVE> moves;
     int max_search_depth;
@@ -19,7 +19,7 @@ private:
             moves.push_back(Generalrubikscube::MOVE(i));
             if (dfs(dep + 1)) return true;
             moves.pop_back();
-            rubiksCube.invert(RubiksCube::MOVE(i));
+            rubiksCube.invert(Generalrubikscube::MOVE(i));
         }
         return false;
     }
