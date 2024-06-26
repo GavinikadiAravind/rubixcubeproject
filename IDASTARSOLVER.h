@@ -1,5 +1,5 @@
 //
-// Created by agavi on 26-06-2024.
+// Created by agavi on 26-05-2024.
 //
 #include<bits/stdc++.h>
 #include "Generalrubikscube.h"
